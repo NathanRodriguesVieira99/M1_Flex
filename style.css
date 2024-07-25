@@ -17,7 +17,7 @@ ul {
 }
 
 li {
-  flex-basis: 100px;
-  border: 1px solid black;
+  flex-basis: ;
+  /* border: 1px solid black; */
   padding: 5px 10px;
 }
