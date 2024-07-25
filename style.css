@@ -5,19 +5,22 @@
   list-style-type: none;
 }
 
+.Odin{
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 ul {
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 10px;
-  margin-top: 20px;
   display: flex;
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
   flex-direction: row;
-  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  box-sizing: content-box !important;
 }
 
 li {
-  flex-basis: ;
-  /* border: 1px solid black; */
+  flex-basis: calc(100vw / 7); 
+  border: 1px solid black;
   padding: 5px 10px;
 }
