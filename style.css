@@ -5,22 +5,54 @@
   list-style-type: none;
 }
 
-.Odin{
+.Odin {
   margin-top: 30px;
   margin-left: 30px;
   margin-right: 30px;
 }
+
 ul {
+  height: 400px;
   display: flex;
-  /* border: 1px dashed red; */
+  border: 1px dotted red;
   flex-direction: row;
-  /* justify-content: space-between; */
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
   box-sizing: content-box !important;
 }
 
 li {
-  flex-basis: calc(100vw / 7); 
+  /* flex-basis: 80px;  */
   border: 1px dashed black;
   padding: 5px 10px;
+  height: 200px;
+}
+
+.item5 {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+}
+
+li:first-child {
+  background-color: blueviolet;
+  margin-left: 5px;
+}
+
+li:last-child {
+  background-color: blueviolet;
+  margin-right: 5px;
+}
+
+.pai {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+}
+
+.filho {
+  flex-basis: 250px;
+  border: 1px solid red;
 }
